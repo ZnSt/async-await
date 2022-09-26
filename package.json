@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://ZnSt.github.io/async-await",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /async-await/",
     "server": "json-server --watch db.json -p 7777"
   },

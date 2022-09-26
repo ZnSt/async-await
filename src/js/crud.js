@@ -19,19 +19,19 @@
 
 // POST
 
-function addBook(book) {
-  const options = {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(book),
-  };
+// function addBook(book) {
+//   const options = {
+//     method: 'POST',
+//     headers: {
+//       'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify(book),
+//   };
 
-  return fetch(`${BASE_URL}/books`, options)
-    .then(response => response.json())
-    .then(data => console.log(data));
-}
+//   return fetch(`${BASE_URL}/books`, options)
+//     .then(response => response.json())
+//     .then(data => console.log(data));
+// }
 
 // addBook({
 //   title: 'Тестовая книга по REACT',

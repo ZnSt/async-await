@@ -1,19 +1,93 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Новые приключения Node.js and React",
+      "author": "Znova Stanislav",
+      "genres": [
+        "приключения"
+      ],
+      "rating": 45
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "На берегу спокойных вод",
+      "author": "Роберт Шекли",
+      "genres": [
+        "фантастика"
+      ],
+      "rating": 8.51
+    },
+    {
+      "id": 3,
+      "title": "Пожиратель призраков",
+      "author": "Говард Лавкрафт",
+      "genres": [
+        "ужасы",
+        "мистика"
+      ],
+      "rating": 7.94
+    },
+    {
+      "id": 4,
+      "title": "Разоблаченный проходимец",
+      "author": "Франц Кафка",
+      "genres": [
+        "классика"
+      ],
+      "rating": 6.62
+    },
+    {
+      "id": 5,
+      "title": "Два солнца",
+      "author": "Леонид Кудрявцев",
+      "genres": [
+        "фантастика"
+      ],
+      "rating": 6.36
+    },
+    {
+      "id": 6,
+      "title": "Приключения Шурика",
+      "author": "Федор Достоевский",
+      "genres": [
+        "классика"
+      ],
+      "rating": 20
+    },
+    {
+      "title": "HTML & CSS book of result",
+      "rating": 35,
+      "author": "Josh Bron",
+      "price": "300$",
+      "id": 7
+    },
+    {
+      "title": "Тестовая книга по REACT",
+      "author": "Monnley",
+      "genres": [
+        "REACT"
+      ],
+      "rating": 25,
+      "id": 8
+    },
+    {
+      "title": "Тестовая книга по Node.js",
+      "author": "I",
+      "genres": [
+        "Node.js"
+      ],
+      "rating": 100,
+      "id": 12
+    },
+    {
+      "title": "Тестовая книга по Node.js",
+      "author": "I",
+      "genres": [
+        "Node.js"
+      ],
+      "rating": 100,
+      "id": 13
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
