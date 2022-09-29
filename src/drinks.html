@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -11,6 +12,50 @@
       <input type="text" name="searchQuery" />
       <button>клик</button>
     </form>
+
+    <div class="container">
+      <h2>Video Category</h2>
+
+      <div class="select-box">
+        <div class="selected">Select Video Category</div>
+
+        <div class="options-container active">
+          <div class="options">
+            <input
+              type="radio"
+              class="radio"
+              id="automobiles"
+              name="catogory"
+            />
+            <label for="automobiles">Automobiles</label>
+          </div>
+          <div class="options">
+            <input type="radio" class="radio" id="film" name="catogory" />
+            <label for="film">Films</label>
+          </div>
+          <div class="options">
+            <input type="radio" class="radio" id="sciene" name="catogory" />
+            <label for="sciene">Sciene and Technology</label>
+          </div>
+          <div class="options">
+            <input type="radio" class="radio" id="art" name="catogory" />
+            <label for="art">Arts</label>
+          </div>
+          <div class="options">
+            <input type="radio" class="radio" id="music" name="catogory" />
+            <label for="music">Music</label>
+          </div>
+          <div class="options">
+            <input type="radio" class="radio" id="travel" name="catogory" />
+            <label for="travel">Travel</label>
+          </div>
+          <div class="options">
+            <input type="radio" class="radio" id="sport" name="catogory" />
+            <label for="sport">Sports</label>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/src/js/drinks-fetch.js" type="module"></script>
   </body>
 </html>
